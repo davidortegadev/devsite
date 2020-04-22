@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>David Ortega | Web Dev</title>
+	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Montserrat&display=swap" rel="stylesheet">
+	<style>
+		h1, h2, h3, h4, h5, h6 {
+			font-family: 'Libre Baskerville', serif;
+		}
+		p, a {
+			font-family: 'Montserrat', sans-serif;
+		}
+		.parent {
+			display: grid;
+			grid-template-columns: .4fr 1.6fr;
+			grid-template-rows: 1fr;
+			grid-column-gap: 0;
+			grid-row-gap: 0;
+		}
+		.nav {
+			grid-column-start: 1;
+			grid-column-end: 2;
+			width: .4fr;
+			background-color: yellow;
+			height: 100%;
+			/*position:fixed;*/
+			z-index: 1;
+			top:0;
+			left:0;
+			overflow-x:hidden;
+			padding-top: 20px;
+		}
+		.nav a {
+			padding: 6px 8px 6px 16px;
+			text-decoration: none;
+			font-size: 25px;
+			display: block;
+		}
+		.content {
+			grid-column-start: 2;
+			grid-column-end: 3;
+			width: 1.6fr;
+			background-color: yellowgreen;
+		}
+	</style>
+</head>
+<body>
+<div class="parent">
+	<div class="nav">
+		<a href="#">About</a>
+		<a href="#">Skills</a>
+		<a href="#">Projects</a>
+		<a href="#">Contact</a>
+<!--		<a href="#">This sentence is a tes</a>-->
+<!--		<p>test</p>-->
+	</div>
+	<div class="content">
+		<div style="max-width: 900px; margin: 0 auto;">
+			<h1>David Ortega</h1>
+			<h2>Software Developer</h2>
+			<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aspernatur aut distinctio explicabo harum iste iusto laudantium maiores, molestias, natus necessitatibus nobis quas tempora temporibus, tenetur veniam voluptatem! Accusantium, ipsam?</span><span>Alias amet asperiores esse illo incidunt, non nostrum odit rem repudiandae, totam unde veritatis voluptatem! Alias fugiat neque similique! A dignissimos doloremque fugiat maiores necessitatibus quidem quis quo rem vel!</span><span>Ad aut dolore earum, est et iste labore nihil quaerat quasi totam. Animi libero nesciunt, nisi perspiciatis quos ratione temporibus voluptatibus. Adipisci alias dignissimos dolores fugit necessitatibus ratione sed suscipit.</span></p>
+			<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><p>hi</p>
+		</div>
+	</div>
+</div>
+</body>
+</html>
